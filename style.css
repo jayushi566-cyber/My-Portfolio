@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    background-color: #f2f0fa;
+    margin: 20px;
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+    color: #554a80;
+}
+
+.menu {
+    background-color: #dcd6f3;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu a {
+    color: #333333;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.menu a:hover {
+    color: purple;
+}
+
+.section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid #dddddd;
+}
+
+h2 {
+    color: #554a80;
+}
+
+input, textarea {
+    padding: 8px;
+    width: 90%;
+}
+
+textarea {
+    height: 70px;
+}
+
+.footer {
+    background-color: #dcd6f3;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Simple responsive design */
+@media (max-width: 600px) {
+    .section {
+        width: 90%;
+    }
+
+    .menu a {
+        display: block;
+        margin: 10px;
+    }
+}
